@@ -1,0 +1,39 @@
+arant@DESKTOP-5RFR7IS MINGW64 ~/Desktop/RPS Game
+$ git log --all --graph
+* commit 912239ac8ae83476983a77c60ca7e76f6ba73797 (HEAD -> main)
+  Author: matagTiki <arante.emmanuel2017@gmail.com>
+  Date:   Thu Jul 13 23:14:00 2023 +0800
+
+      new commit
+
+arant@DESKTOP-5RFR7IS MINGW64 ~/Desktop/RPS Game (main)
+$ git remote add origin https://github.com/Takamea2022/RPS-Game.git
+
+arant@DESKTOP-5RFR7IS MINGW64 ~/Desktop/RPS Game (main)
+$ git remote
+origin
+
+arant@DESKTOP-5RFR7IS MINGW64 ~/Desktop/RPS Game (main)
+$ git remote -v
+origin  https://github.com/Takamea2022/RPS-Game.git (fetch)
+origin  https://github.com/Takamea2022/RPS-Game.git (push)
+
+arant@DESKTOP-5RFR7IS MINGW64 ~/Desktop/RPS Game (main)
+$ git config --global credential.username "matagTiki"
+
+arant@DESKTOP-5RFR7IS MINGW64 ~/Desktop/RPS Game (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 22.08 KiB | 5.52 MiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Takamea2022/RPS-Game.git
+ * [new branch]      main -> main
+
+
+//
+if you want to update your loacal repositories 
+( git fetch )
